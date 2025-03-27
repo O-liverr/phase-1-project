@@ -1,24 +1,37 @@
-{{
+{
     "vehicles": [
       {
         "id": 1,
         "name": "Toyota Land Cruiser",
         "price": 150,
-        "image": "landcruiser.jpg"
+        "image": "landcruiser.jpg",
+        "seats": 6,
+        "type": "open-air"
       },
       {
         "id": 2,
         "name": "Toyota Hiace",
         "price": 100,
-        "image": "hiace.jpg"
+        "image": "hiace.jpg",
+        "seats": 8,
+        "type": "van"
       }
     ],
-    "parks": [
+    "destinations": [
       {
         "id": 1,
         "name": "Maasai Mara",
-        "distance": 300,
-        "image": "maasai-mara.jpg"
+        "base_price": 200,
+        "image": "maasai-mara.jpg",
+        "distance": 300
+      },
+      {
+        "id": 2,
+        "name": "Ol Pejeta",
+        "base_price": 150,
+        "image": "ol-pejeta.jpg",
+        "distance": 250
       }
-    ]
-  }}
+    ],
+    "bookings": []
+  }
