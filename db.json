@@ -1,0 +1,24 @@
+{{
+    "vehicles": [
+      {
+        "id": 1,
+        "name": "Toyota Land Cruiser",
+        "price": 150,
+        "image": "landcruiser.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Toyota Hiace",
+        "price": 100,
+        "image": "hiace.jpg"
+      }
+    ],
+    "parks": [
+      {
+        "id": 1,
+        "name": "Maasai Mara",
+        "distance": 300,
+        "image": "maasai-mara.jpg"
+      }
+    ]
+  }}
