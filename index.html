@@ -3,26 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SafariExpress</title>
+    <title>SafariExpress - Book Your Adventure</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <nav>
+
+    <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#vehicles">Vehicles</a>
+        <a href="#destinations">Destinations</a>
         <a href="#gallery">Gallery</a>
         <a href="#about">About</a>
     </nav>
 
-    <section id="home">
-        <h1>Welcome to SafariExpress!</h1>
-        <button>Book Now</button>
-    </section>
+    <main>
+        <section id="home" class="hero">
+            <h1>Welcome to SafariExpress</h1>
+            <p>Your hassle-free safari booking experience</p>
+            <button class="book-now-btn">Book Now</button>
+        </section>
+
+        <section id="vehicles" class="section">
+            <h2>Our Safari Vehicles</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/land cruiser/oa1.jpeg" alt="Toyota Land Cruiser">
+                    <h3>Toyota Land Cruiser</h3>
+                    <p>Open-air experience | Seats 6</p>
+                    <button class="select-btn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="images/hiace/hiace.jpeg" alt="Toyota Hiace">
+                    <h3>Toyota Hiace</h3>
+                    <p>Comfortable ride | Seats 8</p>
+                    <button class="select-btn">Select</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="destinations" class="section">
+            <h2>Popular Destinations</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/wilbeast/wildbeastmigration.jpeg" alt="Maasai Mara">
+                    <h3>Maasai Mara</h3>
+                    <p>See the Great Migration</p>
+                    <button class="select-btn">Book Now</button>
+                </div>
+                <div class="card">
+                    <img src="images/olpajeta/rhino.jpeg" alt="Ol Pejeta">
+                    <h3>Ol Pejeta</h3>
+                    <p>Rhino conservation park</p>
+                    <button class="select-btn">Book Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2025 SafariExpress</p>
+        <p>© 2025 SafariExpress | Contact: info@safariexpress.com</p>
     </footer>
-
-    <script src="scripts/script.js"></script>
 </body>
 </html>
